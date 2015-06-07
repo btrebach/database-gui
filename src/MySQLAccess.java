@@ -19,7 +19,7 @@ public class MySQLAccess {
 
 	public void readDataBase() {
 		try {
-					    //jdbc:mysql://ipfromconnection:portnumber/databasename
+			//String URL = jdbc:mysql://ipfromconnection:portnumber/databasename
 			String URL = "jdbc:mysql://127.0.0.1:3306/Project1DB";
 			String user = "root";
 			String password = "";
